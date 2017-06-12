@@ -3,6 +3,9 @@
 
   <remote name="topjohnwu"
           fetch="https://github.com/topjohnwu/" />
+  
+    <remote name="kantjer"
+          fetch="https://github.com/kantjer/" />
 
   <project path="Magisk" name="Magisk" remote="topjohnwu" revision="master" />
   <project path="Magisk/MagiskManager" name="MagiskManager" remote="topjohnwu" revision="master" />
@@ -10,5 +13,6 @@
   <project path="Magisk/jni/ndk-compression" name="ndk-compression" remote="topjohnwu" revision="master" />
   <project path="Magisk/jni/selinux" name="selinux" remote="topjohnwu" revision="android" />
   <project path="Magisk/jni/su" name="MagiskSU" remote="topjohnwu" revision="master" />
+  <project path="MagiskFiles" name="MagiskFiles" remote="kantjer" revision="master" />
 
 </manifest>
