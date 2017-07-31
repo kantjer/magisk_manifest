@@ -13,6 +13,7 @@
   <project path="Magisk/jni/ndk-compression" name="ndk-compression" remote="topjohnwu" revision="master" />
   <project path="Magisk/jni/selinux" name="selinux" remote="topjohnwu" revision="android" />
   <project path="Magisk/jni/su" name="MagiskSU" remote="topjohnwu" revision="master" />
+  <project path="Magisk/jni/busybox" name="ndk-busybox" remote="topjohnwu" revision="android-ndk" />
   <project path="MagiskFiles" name="MagiskFiles" remote="kantjer" revision="master" />
 
 </manifest>
