@@ -4,16 +4,20 @@
   <remote name="topjohnwu"
           fetch="https://github.com/topjohnwu/" />
   
-    <remote name="kantjer"
+  <remote name="dgibson"
+          fetch="https://github.com/dgibson/" />
+  
+  <remote name="kantjer"
           fetch="https://github.com/kantjer/" />
 
   <project path="Magisk" name="Magisk" remote="topjohnwu" revision="master" />
   <project path="Magisk/MagiskManager" name="MagiskManager" remote="topjohnwu" revision="master" />
   <project path="Magisk/jni/magiskpolicy" name="magiskpolicy" remote="topjohnwu" revision="master" />
-  <project path="Magisk/jni/ndk-compression" name="ndk-compression" remote="topjohnwu" revision="master" />
-  <project path="Magisk/jni/selinux" name="selinux" remote="topjohnwu" revision="android" />
+  <project path="Magisk/jni/external/ndk-compression" name="ndk-compression" remote="topjohnwu" revision="master" />
+  <project path="Magisk/jni/external/selinux" name="selinux" remote="topjohnwu" revision="android" />
   <project path="Magisk/jni/su" name="MagiskSU" remote="topjohnwu" revision="master" />
-  <project path="Magisk/jni/busybox" name="ndk-busybox" remote="topjohnwu" revision="android-ndk-1.27.2" />
+  <project path="Magisk/jni/external/busybox" name="ndk-busybox" remote="topjohnwu" revision="android-ndk-1.27.2" />
+  <project path="Magisk/jni/external/dtc" name="dtc" remote="dgibson" revision="master" />
   <project path="MagiskFiles" name="MagiskFiles" remote="kantjer" revision="master" />
 
 </manifest>

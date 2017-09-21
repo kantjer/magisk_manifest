@@ -1,4 +1,4 @@
-Build Ninja kernel
+Build Magisk
 =====================
 
 Tip and tricks:
