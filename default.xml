@@ -11,7 +11,7 @@
           fetch="https://github.com/kantjer/" />
 
   <project path="Magisk" name="Magisk" remote="topjohnwu" revision="master" />
-  <project path="Magisk/MagiskManager" name="MagiskManager" remote="topjohnwu" revision="master" />
+  <project path="Magisk/java" name="MagiskManager" remote="topjohnwu" revision="master" />
   <project path="Magisk/jni/magiskpolicy" name="magiskpolicy" remote="topjohnwu" revision="master" />
   <project path="Magisk/jni/external/ndk-compression" name="ndk-compression" remote="topjohnwu" revision="master" />
   <project path="Magisk/jni/external/selinux" name="selinux" remote="topjohnwu" revision="android" />
