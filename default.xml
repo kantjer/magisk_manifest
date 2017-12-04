@@ -20,15 +20,15 @@
           fetch="https://github.com/xz-mirror/" />
 
   <project path="Magisk" name="Magisk" remote="topjohnwu" revision="master" />
-  <project path="Magisk/java" name="MagiskManager" remote="topjohnwu" revision="master" />
-  <project path="Magisk/jni/magiskpolicy" name="magiskpolicy" remote="topjohnwu" revision="master" />
-  <project path="Magisk/jni/external/lz4" name="lz4" remote="lz4" revision="dev" />
-  <project path="Magisk/jni/external/bzip2" name="bzip2" remote="bzip2" revision="master" />
-  <project path="Magisk/jni/external/xz" name="xz" remote="xz" revision="master" />
-  <project path="Magisk/jni/external/selinux" name="selinux" remote="topjohnwu" revision="android" />
-  <project path="Magisk/jni/su" name="MagiskSU" remote="topjohnwu" revision="master" />
-  <project path="Magisk/jni/external/busybox" name="ndk-busybox" remote="topjohnwu" revision="android-ndk-1.27.2" />
-  <project path="Magisk/jni/external/dtc" name="dtc" remote="dgibson" revision="master" />
+  <project path="Magisk/app" name="MagiskManager" remote="topjohnwu" revision="master" />
+  <project path="Magisk/core/jni/magiskpolicy" name="magiskpolicy" remote="topjohnwu" revision="master" />
+  <project path="Magisk/core/jni/external/lz4" name="lz4" remote="lz4" revision="dev" />
+  <project path="Magisk/core/jni/external/bzip2" name="bzip2" remote="bzip2" revision="master" />
+  <project path="Magisk/core/jni/external/xz" name="xz" remote="xz" revision="master" />
+  <project path="Magisk/core/jni/external/selinux" name="selinux" remote="topjohnwu" revision="android" />
+  <project path="Magisk/core/jni/su" name="MagiskSU" remote="topjohnwu" revision="master" />
+  <project path="Magisk/core/jni/external/busybox" name="ndk-busybox" remote="topjohnwu" revision="android-ndk-1.27.2" />
+  <project path="Magisk/core/jni/external/dtc" name="dtc" remote="dgibson" revision="master" />
   <project path="MagiskFiles" name="MagiskFiles" remote="kantjer" revision="master" />
 
 </manifest>
