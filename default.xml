@@ -18,6 +18,9 @@
 
   <remote name="xz"
           fetch="https://github.com/xz-mirror/" />
+  
+  <remote name="nanopb"
+          fetch="https://github.com/nanopb/" />
 
   <project path="Magisk" name="Magisk" remote="topjohnwu" revision="master" />
   <project path="Magisk/app" name="MagiskManager" remote="topjohnwu" revision="master" />
@@ -27,8 +30,9 @@
   <project path="Magisk/native/jni/external/xz" name="xz" remote="xz" revision="master" />
   <project path="Magisk/native/jni/external/selinux" name="selinux" remote="topjohnwu" revision="android" />
   <project path="Magisk/native/jni/su" name="MagiskSU" remote="topjohnwu" revision="master" />
-  <project path="Magisk/native/jni/external/busybox" name="ndk-busybox" remote="topjohnwu" revision="android-ndk-1.27.2" />
+  <project path="Magisk/native/jni/external/busybox" name="ndk-busybox" remote="topjohnwu" revision="android-ndk-1.28.3" />
   <project path="Magisk/native/jni/external/dtc" name="dtc" remote="dgibson" revision="master" />
+  <project path="Magisk/native/jni/external/nanopb" name="nanopb" remote="nanopb" revision="master" />
   <project path="MagiskFiles" name="MagiskFiles" remote="kantjer" revision="master" />
 
 </manifest>
